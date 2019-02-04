@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+
+       <form>
+
+        <!--Login wpisujemy placeholder ze słowem Login-->  
+          <input type="text" placeholder="Login" onfocus="this.placeholder=''" onblur="this.placeholder='Login'">
+        <!-- this -wskaźnik (uchwyt, referencja) obiektu, na rzecz którego dana metoda (tutaj obsluga zdarzenia) została wywołana. nie trzeba wpisywać
+         id -->
+
+
+         <!-- <br />  <br />  odstęp ustawimy w css za pomocą margin-->
+
+        <!--Hasło wypisujemy placeholder ze słowem Hasło-->
+          <input type="password" placeholder="Hasło" onfocus="this.placeholder=''" onblur="this.placeholder='Hasło'">
+
+        <!-- <br /> <br /> -->
+
+          <input type="submit" value="Zaloguj się"> 
+             <!-- przycisk zaloguj się jest mniejszy niż pozostałe dwa Login i Hasło 
+             nazwya się to według zelenta obliczanie rozmiaru względem contentu 
+              content, width=300px -->
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
